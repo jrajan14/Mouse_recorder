@@ -60,12 +60,12 @@ python recorder.py
 - You can customize in ```recorder.py``` and ```player.py```:
 
 **Option	Description**
-```RECORDING_DELAY```	Delay before starting recording
-```SPEED_FACTOR```	Playback speed multiplier (e.g., 2.0 = 2x)
-```STOP_KEY	Hotkey``` to stop recording/playback
-```DRAG_PREDICTION```	Enable smoother drag motion
-```ADDRESS	UDP``` target address and port
-```WIDTH/HEIGHT```	Screen resolution for coordinate scaling
+-```RECORDING_DELAY```	Delay before starting recording
+-```SPEED_FACTOR```	Playback speed multiplier (e.g., 2.0 = 2x)
+-```STOP_KEY	Hotkey``` to stop recording/playback
+-```DRAG_PREDICTION```	Enable smoother drag motion
+-```ADDRESS	UDP``` target address and port
+-```WIDTH/HEIGHT```	Screen resolution for coordinate scaling
 
 📡 UDP Streaming Format
 - The TouchData class in ```protocol.py``` is used to:
