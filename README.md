@@ -29,12 +29,11 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 ```
 
 ## 🖥️ Requirements
-### Python 3.7+
-### pyautogui
-### pynput
-### keyboard
-### numpy
-
+- **Python 3.7+**
+- **pyautogui**
+- **pynput**
+- **keyboard**
+- **numpy**
 
 ```
 pip install pyautogui pynput keyboard numpy
