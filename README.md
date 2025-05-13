@@ -38,6 +38,14 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 ```
 pip install pyautogui pynput keyboard numpy
 ```
-
-
+🚀 Usage
+-🎙️ Record Mouse Events
+```
+python recorder.py
+```
+- Waits 3 seconds before starting.
+- Records movements, clicks, scrolls.
+- Sends live (x, y) over UDP if mouse is pressed.
+- Press Scroll Lock or Ctrl+C to stop.
+- Output saved to: ```mouse_track.json```
 
