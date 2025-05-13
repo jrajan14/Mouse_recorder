@@ -24,4 +24,18 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 ├── player.py         # Replay recorded mouse events
 ├── mouse_track.json  # Output file from recorder
 ├── protocol.py       # Defines TouchData for UDP packet structure
+├── protocol.py       # To receive UDP messages sent via protocol.py
 └── README.md         # Project documentation
+
+
+🖥️ Requirements
+Python 3.7+
+pyautogui
+pynput
+keyboard
+numpy
+
+
+```bash
+
+
