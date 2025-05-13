@@ -28,12 +28,12 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 └── README.md         # Project documentation
 ```
 
-🖥️ Requirements
-Python 3.7+
-pyautogui
-pynput
-keyboard
-numpy
+## 🖥️ Requirements
+### Python 3.7+
+### pyautogui
+### pynput
+### keyboard
+### numpy
 
 
 ```
