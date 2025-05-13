@@ -49,3 +49,47 @@ python recorder.py
 - Press Scroll Lock or Ctrl+C to stop.
 - Output saved to: ```mouse_track.json```
 
+🎬 Play Back Events
+``` python player.py ```
+- Replays all recorded events.
+- Uses original timing unless modified via SPEED_FACTOR.
+- Supports drag prediction for smoother paths.
+- Press Scroll Lock or ```Ctrl+C``` to stop at any time.
+
+⚙️ Configuration Options
+- You can customize in ```recorder.py``` and ```player.py```:
+
+**Option	Description**
+```RECORDING_DELAY```	Delay before starting recording
+```SPEED_FACTOR```	Playback speed multiplier (e.g., 2.0 = 2x)
+```STOP_KEY	Hotkey``` to stop recording/playback
+```DRAG_PREDICTION```	Enable smoother drag motion
+```ADDRESS	UDP``` target address and port
+```WIDTH/HEIGHT```	Screen resolution for coordinate scaling
+
+📡 UDP Streaming Format
+- The TouchData class in ```protocol.py``` is used to:
+- Normalize coordinates (0–1 range)
+- Package them into byte format
+- Send via UDP to a target listener
+
+You can customize this class to match your target application's protocol.
+
+🧪 Example Use Cases
+- Automated UI testing for desktop apps
+- Creating reproducible input demos
+- Remote control/input replay in custom environments
+- Input stream generation for touch emulation
+
+🛠️ Future Improvements
+- Add support for keyboard event capture
+- Include GUI for easier recording/playback
+- Cross-platform enhancements for hotkey handling
+
+🙌 Acknowledgments
+- Built using:
+```
+pyautogui
+pynput
+keyboard
+```
