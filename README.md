@@ -59,7 +59,7 @@ python recorder.py
 ⚙️ Configuration Options
 - You can customize in ```recorder.py``` and ```player.py```:
 
-**Option	Description**
+**Option Descriptions**
 - ```RECORDING_DELAY```	Delay before starting recording
 - ```SPEED_FACTOR```	Playback speed multiplier (e.g., 2.0 = 2x)
 - ```STOP_KEY	Hotkey``` to stop recording/playback
