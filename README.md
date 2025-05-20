@@ -4,7 +4,7 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 
 ---
 
-## 📦 Features
+## 📦 Features 
 
 - ✅ **Mouse Event Recording** (movement, click, scroll)
 - 📤 **UDP Touch Data Streaming** (normalized coordinates)
