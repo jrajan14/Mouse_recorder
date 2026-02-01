@@ -16,7 +16,7 @@ This project provides a Python-based mouse **recorder** and **player** that capt
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```
 .
