@@ -1,4 +1,4 @@
-# 🖱️ Mouse Recorder & Player with UDP Streaming.                    
+# 🖱️ Mouse Recorder & Player with UDP Streaming.                     
     
 This project provides a Python-based mouse **recorder** and **player** that captures mouse events (movements, clicks, and scrolls), stores them in a JSON file, and streams real-time touch data over **UDP**. It is designed for **UI testing**, **automation**, and **input replay systems**.     
 
