@@ -6,8 +6,8 @@ from pynput.mouse import Button
 import sys
 
 # Configuration
-INPUT_FILE = "mouse_track.json"
-SPEED_FACTOR = 1.0
+INPUT_FILE = "mouse_track.json" # To store tracking data
+SPEED_FACTOR = 1.0 # Mouse speed multiplier
 MIN_DELAY = 0.001  # 1ms minimum delay
 DRAG_PREDICTION = True  # Enable predictive dragging for smoother curves
 STOP_KEY = 'scroll lock'  # For emergency stop
